@@ -14,7 +14,7 @@ img {
 
 h1 {
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 900;
     line-height: 1.1;
     margin-bottom: 10px;
@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     color: #1f2937;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 900;
     margin-bottom: 10px;
 }
@@ -36,36 +36,40 @@ ul {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0 30px;
+}
+
+.header, .hero {
+    background: #1f2937;
+    color: white;
 }
 
 .header .container, .hero .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1f2937;
-    color: white;
 }
 
 .logo {
     color: #F9FAf8;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .navbar {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .navbar a {
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
 }
 
-.herotext button {
+.intro button {
     background: #3882f6;
     color: #e5e7eb;
     padding: 5px 10px;
@@ -99,12 +103,15 @@ ul {
     margin: auto;
 }
 
-.quote .container {
-    display: flex;
-    flex-direction: column;
+.quote {
     background: #e5e7eb;
     color: #1f2937;
     padding: 60px 80px;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
 }
 
 .quotetext {
@@ -120,17 +127,20 @@ ul {
     align-self: flex-end;
 }
 
-.footer {
-}
-
-.footer .container {
+.action {
     display: flex;
     justify-content: center;
+}
+
+.action .container {
+    flex:auto;
+    display: flex;
+    justify-content: space-evenly;
     background: #3882F6;
     color: white;
     border-radius: 10px;
-    padding: 30px 60px;
-    margin: 60px;
+    padding: 30px 40px;
+    margin: 30px;
 }
 
 .call {
@@ -142,12 +152,12 @@ ul {
 }
 
 .actionbutton {
+    align-self: center;
     background: #3882f6;
     color: #e5e7eb;
     padding: 5px 10px;
     border: 3px solid white;
     border-radius: 10px;
-    margin: auto
 }
 
 
